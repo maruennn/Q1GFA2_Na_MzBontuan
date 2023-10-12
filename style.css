@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Playfair+Display:ital,wght@1,800&family=Poppins&family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Josefin+Sans:ital,wght@0,700;1,400&family=Manrope:wght@600&family=Space+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Josefin+Sans:ital,wght@0,700;1,400&family=Jost&family=Manrope:wght@600&family=Space+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Josefin+Sans:ital,wght@0,700;1,400&family=Jost&family=Manrope:wght@600&family=Public+Sans&family=Space+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Josefin+Sans:ital,wght@0,700;1,400&family=Jost&family=Manrope:wght@600&family=Public+Sans&family=Raleway:ital@1&family=Space+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Josefin+Sans:ital,wght@0,700;1,400&family=Jost&family=Manrope:wght@600&family=Public+Sans&family=Raleway:ital@1&family=Space+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gabarito:wght@600&family=Josefin+Sans:ital,wght@0,700;1,400&family=Jost&family=Manrope:wght@600&family=Poppins&family=Public+Sans&family=Raleway:ital@1&family=Space+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gabarito:wght@600&family=Josefin+Sans:ital,wght@0,700;1,400&family=Jost&family=Manrope:wght@600&family=Poppins&family=Public+Sans&family=Raleway:ital@1&family=Space+Grotesk:wght@500&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gabarito:wght@600&family=Josefin+Sans:ital,wght@0,700;1,400&family=Jost&family=Lato:wght@700&family=Manrope:wght@600&family=Poppins&family=Public+Sans&family=Raleway:ital@1&family=Space+Grotesk:wght@500&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gabarito:wght@600&family=Josefin+Sans:ital,wght@0,700;1,400&family=Jost&family=Lato:wght@700&family=Manrope:wght@600&family=Poppins&family=Public+Sans&family=Raleway:ital@1&family=Space+Grotesk:wght@500&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gabarito:wght@600&family=Josefin+Sans:ital,wght@0,700;1,400&family=Jost&family=Lato:wght@700&family=Manrope:wght@600&family=Poppins&family=Public+Sans&family=Raleway:ital@1&family=Space+Grotesk:wght@500&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gabarito:wght@600&family=Josefin+Sans:ital,wght@0,700;1,400&family=Jost&family=Lato:wght@700&family=Manrope:wght@600&family=Poppins&family=Public+Sans&family=Raleway:ital@1&family=Space+Grotesk:wght@500&family=Vesper+Libre:wght@500&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Dela+Gothic+One&family=Gabarito:wght@600&family=Josefin+Sans:ital,wght@0,700;1,400&family=Jost&family=Lato:wght@700&family=Manrope:wght@600&family=Poppins&family=Public+Sans&family=Raleway:ital@1&family=Space+Grotesk:wght@500&family=Vesper+Libre:wght@500&family=Young+Serif&display=swap');
+*{
+    padding: 0vw;
+    margin: 0vw;
+}
+body{
+    background-image:url('images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    border: 0.25vh solid black;
+    background-color: rgb(204, 173, 86);
+    height: 4vh;
+    padding: 1vw;
+}
+.productname{
+    float: left;
+    display: inline;
+    color: rgb(255, 252, 252);
+    font-size: 2.5vh;
+    font-weight: bold;
+    margin-left: 1vw;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+}
+.linksgroup1 div{
+    background-color: #ffffff;
+    margin-top: 0.25vh;
+}
+#home, #gallery{
+    padding: 0.25vw;
+    border: 0.40vh solid #000000;
+    background-color: rgb(224, 184, 72);
+    transition: .4s;
+    font-size: 1.25vw;
+    font-family: 'Roboto Slab', 'sans-serif';
+}
+#home:hover, #gallery:hover, #source:hover, #about:hover{
+    padding: .25vw;
+    font-size: 1.25vw;
+    transition: .4s;
+    background-color: #816a33;
+}
+.links1{
+    display: inline;
+    float: right;
+    text-transform: uppercase;
+    margin-right: 1vw;
+}
+.links1 a{
+    color: black;
+    text-decoration: none;
+    background-color: #ffdb98;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: bold;
+}
+.container{
+    margin: 2vh 3.5vw;
+    padding: 0vh;
+    width: 95vw;
+    background-color: rgb(255, 255, 255);
+}
+.linksgroup2{
+    float: left;
+    border: 0.5vh solid rgb(236, 171, 32);
+    background-color: #ffffff;
+    padding: 1vw;
+    width: 5vw;
+    text-align: center;
+    height: auto;
+    color: rgb(189, 140, 16);
+    font-family: 'Young serif', serif;
+    font-size: smaller;
+    width: 6vw;
+}
+.linksgroup2 div, .linksgroup2 span{
+    background-color: #ffffff;
+    
+}
+.linksgroup2 span {
+    display: block;
+    font-weight: 900;
+    font-size: 1.8vw;
+}
+.linksgroup2 div{
+    padding: 0.75vw;
+}
+.links2{
+    display: block;
+    font-weight: 1em;
+}
+
+#prod1:hover, #prod2:hover, #prod3:hover, #prod4:hover, #prod5:hover, #prod6:hover{
+    opacity: 1;
+    font-weight: bolder;
+    padding: .4vw;
+    transition: .4s;
+}
+#contentbox{
+    float: left;
+    border: 0.25vh solid rgb(241, 204, 123);
+    margin: 0vw 1vw;
+    width: 55vw;
+    height: auto;
+    background-color: #f0c955;
+    overflow: auto;
+    border: 0.5vh solid black;
+}
+#contentbox h1 {
+    text-align: center;
+    margin: 2vw 2vw 0vw 2vw;
+    color: rgb(221, 145, 12);
+    font-family: 'Vesper Libre', sans-serif;
+    font-size: 6vw;
+
+}
+#contentbox h1:hover{
+    font-size: 6vw;
+    transition: .4s;
+    color: #a27100;
+}
+#contentbox h3 {
+    text-align: center;
+    margin: 0vw 2vw 2vw 2vw;
+    color: #9f712c;
+    font-family: 'Bona Nova', sans-serif;
+    font-size: 1.25vw;
+}
+#contentbox p{
+    top: 1vw;
+    margin: 2.5vw;
+    color: rgb(139, 114, 2);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.15vw;
+    text-align: justify;
+}
+#imagecontain{
+    float: left;
+    border: 1vh double rgb(236, 171, 32);
+    background-color: #ffffff;
+    width: 25vw;
+    height: auto;
+}
+#imagecontain div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#imagecontain img {
+    padding-top: 2vw;
+    background-color: #ffffff;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+#caption {
+    text-align: center;
+    margin: 1vw;
+    background-color: #ffffff;
+    font-family: 'Young Serif', serif;
+    font-size: 1.25vw;
+    color:rgb(0, 0, 0)
+}
+   
